@@ -21,3 +21,10 @@ contract BaseBadge {
         return hasBadge[user][badgeId];
     }
 }
+  function checkBadge(
+        address user,
+        uint256 badgeId
+    ) external view returns (bool) {
+        return hasBadge[user][badgeId];
+    }
+}
